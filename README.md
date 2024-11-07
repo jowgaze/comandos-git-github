@@ -49,6 +49,20 @@ Acesse a pasta que você quer utilizar pelo o terminal de sua preferencia e util
 Obs: para desfazer mais commits basta adicionar a quantidade após o ~
 Exemplo: HEAD~3 (Desfaz os últimos 3 commits)
 
+##### Voltar para o commit e mater alterações em staged:
+	git reset --soft <commit>: "Retorno Suave, Mantendo Mudanças"
+
+##### Voltar para o commit e desfazendo o staging:
+	git reset --mixed <commit>
+
+##### Voltar para um commit e apagar as mudanças
+	git reset --hard <commit>
+
+## Alias (Novos "comandos"/atalhos)
+##### Para criar um alias globalmente:
+	git config --global alias.<identificador>  <comando>
+Uma forma simples de visualizar os aliases configurados é usando o seguinte comando: git config --list
+
 ## Branch
 ##### Visualizar as branchs:
 	git branch
