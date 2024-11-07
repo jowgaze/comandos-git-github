@@ -91,9 +91,9 @@ adicione "nome do arquivo.extensão" dentro do arquivo .ignore para arquivos que
 ## Repositório online
 ##### Para iniciar:
 
-    git remote add origin <link do repositorio>
-    git remote -v
-    git push -u origin main
+	git remote add origin <link do repositorio>
+	git remote -v
+	git push -u origin main
 
 Ou crie o repositório no git e faça um clone do mesmo em seu computador com o comando:
 
@@ -102,13 +102,13 @@ Ou crie o repositório no git e faça um clone do mesmo em seu computador com o 
 ## Git e Github
 
 ##### Push (Enviar do local para o remoto)
-    git push origin main
+	git push origin main
 
 ##### Pull (Receber do remoto para o local)
-    git pull
+	git pull
 
-
-
+##### Fetch (Atualiza as referências locais com relações às remotas pegando apenas os METADADOS para verificar atualizações)
+	git fetch
 
 ## Tag
 ##### Criar tag
