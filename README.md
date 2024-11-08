@@ -85,6 +85,9 @@ ou
 ##### Fazer um merge:
 	git merge -m "mensagem" NomeDaBranch
 
+##### Escolher um commit específico de uma branch e aplicá-lo em outra:
+	git cherry-pick <commit>
+
 ## Arquivo .gitignore
 adicione "nome do arquivo.extensão" dentro do arquivo .ignore para arquivos que serão ignorados
 
